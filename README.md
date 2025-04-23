@@ -44,6 +44,7 @@ Use the following values:
 - **Arguments**:
   - `-y`
   - `@devproxy/mcp`
+- **Environment**: _none_
 
 > [!TIP]
 > If you want to test the preview version of the server using `@devproxy/mcp@next`.
