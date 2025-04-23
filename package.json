@@ -1,8 +1,12 @@
 {
-  "name": "dev-proxy-mcp",
+  "name": "@devproxy/mcp",
   "version": "0.1.0",
+  "description": "Model Context Protocol (MCP) server for Dev Proxy that enables AI assistants to interact with Dev Proxy.",
   "main": "dist/index.js",
   "type": "module",
+  "bin": {
+    "@devproxy/mcp": "./dist/index.js"
+  },
   "scripts": {
     "build": "tsc -p .",
     "watch": "tsc -w -p .",
@@ -10,10 +14,34 @@
     "start": "node dist/index.js",
     "inspect": "npx -y @modelcontextprotocol/inspector node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "dev-proxy",
+    "mcp",
+    "model-context-protocol",
+    "ai-assistant",
+    "api-simulator"
+  ],
+  "author": "Dev Proxy",
+  "maintainers": [
+    {
+      "name": "Waldek Mastykarz",
+      "email": "waldek@mastykarz.nl",
+      "web": "https://blog.mastykarz.nl"
+    },
+    {
+      "name": "Garry Trinder",
+      "email": "garry.trinder@live.com",
+      "web": "https://garrytrinder.github.io/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waldekmastykarz/dev-proxy-mcp.git"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "license": "MIT",
-  "description": "",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.10.2"
   },
