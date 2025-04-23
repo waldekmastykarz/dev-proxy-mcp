@@ -1,6 +1,6 @@
 # Dev Proxy MCP Server
 
-[![Install with NPX in VS Code](https://img.shields.io/badge/VS_Code-Install_Dev_Proxy_MCP_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=Dev%20Proxy%20MCP%20Server&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40devproxy%2Fmcp%40latest%22%5D%7D) [![Install with NPX in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install_Dev_Proxy_MCP_Server-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=Dev%20Proxy%20MCP%20Server&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40devproxy%2Fmcp%40latest%22%5D%7D&quality=insiders)
+[![Install with NPX in VS Code](https://img.shields.io/badge/VS_Code-Install_Dev_Proxy-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=Dev%20Proxy&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40devproxy%2Fmcp%40latest%22%5D%7D) [![Install with NPX in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install_Dev_Proxy-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=Dev%20Proxy&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40devproxy%2Fmcp%40latest%22%5D%7D&quality=insiders)
 
 A Model Context Protocol (MCP) server for [Dev Proxy](https://aka.ms/devproxy) that enables AI assistants to interact with Dev Proxy capabilities using the MCP standard. Use this server to:
 
@@ -36,6 +36,17 @@ This package provides a Model Context Protocol (MCP) server interface to Dev Pro
 ## Usage
 
 To set up and use the MCP server, refer to the instructions for your MCP host, such as [Visual Studio Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server). The Dev Proxy MCP server is published on npm under [`@devproxy/mcp`](https://www.npmjs.com/package/@devproxy/mcp).
+
+Use the following values:
+
+- **Type**: `stdio`
+- **Command**: `npx`
+- **Arguments**:
+  - `-y`
+  - `@devproxy/mcp`
+
+> [!TIP]
+> If you want to test the preview version of the server using `@devproxy/mcp@next`.
 
 ### Connect with an MCP Client
 
