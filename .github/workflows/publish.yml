@@ -25,10 +25,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Clean and build
-        run: |
-          npm run clean
-          npm run build
+      - name: Build
+        run: npm run build
 
       - name: Get version from tag
         id: get_version
