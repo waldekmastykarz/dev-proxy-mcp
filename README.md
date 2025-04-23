@@ -35,7 +35,7 @@ This package provides a Model Context Protocol (MCP) server interface to Dev Pro
 
 ## Usage
 
-To set up and use the MCP server, refer to the instructions for your MCP host, such as [Visual Studio Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server).
+To set up and use the MCP server, refer to the instructions for your MCP host, such as [Visual Studio Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server). The Dev Proxy MCP server is published on npm under [`@devproxy/mcp`](https://www.npmjs.com/package/@devproxy/mcp).
 
 ### Connect with an MCP Client
 
