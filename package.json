@@ -39,14 +39,14 @@
     "url": "https://github.com/waldekmastykarz/dev-proxy-mcp.git"
   },
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=20.0.0"
   },
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.10.2"
   },
   "devDependencies": {
-    "@types/node": "^22.14.1",
+    "@types/node": "^20.17.30",
     "rimraf": "^6.0.1",
     "typescript": "^5.8.3"
   }
