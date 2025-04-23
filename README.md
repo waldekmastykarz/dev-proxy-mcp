@@ -2,7 +2,7 @@
 
 [![Install with NPX in VS Code](https://img.shields.io/badge/VS_Code-Install_Dev_Proxy_MCP_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=Dev%20Proxy%20MCP%20Server&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40devproxy%2Fmcp%40latest%22%5D%7D) [![Install with NPX in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install_Dev_Proxy_MCP_Server-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=Dev%20Proxy%20MCP%20Server&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40devproxy%2Fmcp%40latest%22%5D%7D&quality=insiders)
 
-A Model Context Protocol (MCP) server for Dev Proxy that enables AI assistants to interact with Dev Proxy capabilities using the MCP standard. Use this server to:
+A Model Context Protocol (MCP) server for [Dev Proxy](https://aka.ms/devproxy) that enables AI assistants to interact with Dev Proxy capabilities using the MCP standard. Use this server to:
 
 1. Create Dev Proxy configurations using natural language
 1. Get contextual help for working with Dev Proxy
@@ -35,11 +35,7 @@ This package provides a Model Context Protocol (MCP) server interface to Dev Pro
 
 ## Usage
 
-### Start the MCP Server
-
-```bash
-npx @devproxy/mcp
-```
+To set up and use the MCP server, refer to the instructions for your MCP host, such as [Visual Studio Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server).
 
 ### Connect with an MCP Client
 
