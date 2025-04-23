@@ -1,17 +1,16 @@
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
-import { dirname, join } from 'path';
-import { fileURLToPath } from 'url';
+import { createRequire } from 'module';
 import { z } from 'zod';
 import { findDocs } from './findDocs.js';
 import { getVersion } from './getVersion.js';
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const packageJson = await import(join(__dirname, '../package.json'), { assert: { type: 'json' } });
+const require = createRequire(import.meta.url);
+const packageJson = require('../package.json');
 
 const server = new McpServer({
   name: 'Dev Proxy',
-  version: packageJson.default.version
+  version: packageJson.version
 });
 
 server.tool('FindDocs', 'Finds the relevant Dev Proxy documentation for the given query',
