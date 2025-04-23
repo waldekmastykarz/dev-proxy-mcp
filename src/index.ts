@@ -14,9 +14,12 @@ const server = new McpServer({
 });
 
 server.tool('FindDocs', 'Finds the relevant Dev Proxy documentation for the given query',
-  { query: z.string() },
-  async ({ query }) => ({
-    content: [{ type: 'text', text: await findDocs(query) }]
+  {
+    query: z.string().describe('The search query to find documentation for'),
+    version: z.string().optional().describe('Dev Proxy version to get documentation for in the format x.y.z, eg. 0.27.0')
+  },
+  async ({ query, version }) => ({
+    content: [{ type: 'text', text: await findDocs(query, version === null ? undefined : version) }]
   })
 );
 

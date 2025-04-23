@@ -12,13 +12,18 @@ interface DocSearchResult {
   title?: string;
 }
 
-export const findDocs = async (query: string): Promise<string> => {
+export const findDocs = async (query: string, version?: string): Promise<string> => {
+  let filter = undefined;
+  if (version) {
+    filter = `version eq '${version}' or version eq null`;
+  }
+  
   const response = await fetch('https://devproxy-wama.azurewebsites.net/api/search', {
     method: 'POST',
     headers: {
       'content-type': 'application/json',
     },
-    body: JSON.stringify({ query }),
+    body: JSON.stringify({ query, filter }),
   });
 
   if (!response.ok) {
