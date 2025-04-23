@@ -33,7 +33,7 @@ jobs:
         run: echo "version=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
 
       - name: Update package version
-        run: npm version ${{ steps.get_version.outputs.version }} --no-git-tag-version
+        run: npm version ${{ steps.get_version.outputs.version }} --no-git-tag-version --allow-same-version
 
       - name: Check if beta version
         id: check_beta
