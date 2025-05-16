@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/waldekmastykarz-dev-proxy-mcp-badge.png)](https://mseep.ai/app/waldekmastykarz-dev-proxy-mcp)
+
 # Dev Proxy MCP Server
 
 [![Install with NPX in VS Code](https://img.shields.io/badge/VS_Code-Install_Dev_Proxy_MCP_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=Dev%20Proxy&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40devproxy%2Fmcp%40latest%22%5D%7D) [![Install with NPX in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install_Dev_Proxy_MCP_Server-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=Dev%20Proxy&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40devproxy%2Fmcp%40latest%22%5D%7D&quality=insiders)
