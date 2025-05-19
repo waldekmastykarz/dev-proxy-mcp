@@ -46,7 +46,7 @@
     "@modelcontextprotocol/sdk": "^1.11.3"
   },
   "devDependencies": {
-    "@types/node": "^20.17.47",
+    "@types/node": "^20.17.48",
     "rimraf": "^6.0.1",
     "typescript": "^5.8.3"
   }
