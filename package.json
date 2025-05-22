@@ -43,7 +43,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.11.4"
+    "@modelcontextprotocol/sdk": "^1.11.5"
   },
   "devDependencies": {
     "@types/node": "^20.17.50",
