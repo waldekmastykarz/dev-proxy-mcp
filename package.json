@@ -36,7 +36,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/waldekmastykarz/dev-proxy-mcp.git"
+    "url": "git+https://github.com/dev-proxy-tools/mcp.git"
   },
   "engines": {
     "node": ">=20.0.0"
